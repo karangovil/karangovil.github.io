@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Karan Govil, Physicist turned programmer, Launches Site"
+title: "Launch!"
 date: 2019-04-26
 ---
 
