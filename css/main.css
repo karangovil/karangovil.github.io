@@ -54,7 +54,7 @@ a:hover {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 18px;
     line-height: 1.4em;
     color: #333;
 }
@@ -88,11 +88,6 @@ nav ul li {
     margin-right: 20px;
 }
 
-footer {
-    border-top: 1px solid #999;
-    font-size: .8em;
-}
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 18px;
@@ -100,6 +95,20 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.container p.meta {
+    font-size: 14px;
+    color: #828282;
+}
+
+footer {
+    border-top: 1px solid #999;
+    font-size: .8em;
 }
 
 footer p {
