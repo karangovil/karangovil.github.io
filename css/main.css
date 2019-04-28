@@ -101,6 +101,10 @@ ul.posts li {
     padding: 0 20px;
 }
 
+.container p {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 .container p.meta {
     font-size: 14px;
     color: #828282;
