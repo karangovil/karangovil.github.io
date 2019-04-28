@@ -4,7 +4,7 @@
 /* Layout */
 
 .bodywrapper {
-    width: 1400px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -12,6 +12,7 @@
     width: 100%;
     border-bottom: #999 solid 1px;
     padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 .row1col1 {
@@ -31,7 +32,7 @@
     clear: both;
 }
 
-h1, h2, h3, h4, p, li, a {
+h1, h2, h3, h4 {
     font-family: "Courier New",Courier,monospace;
 }
 
@@ -53,6 +54,7 @@ a:hover {
 }
 
 p {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -70,6 +72,10 @@ p {
 .icons li i {
     font-size: 20px;
     color: #999;
+}
+
+.icons li i:hover {
+    color: #000;
 }
 
 nav ul{
@@ -90,13 +96,18 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 18px;
 }
 
 ul.posts li {
     list-style: none;
 }
 
+footer p {
+    font-size: 16px;
+}
+
 footer p i {
-    font-size: 20px;
+    font-size: 16px;
+    color: #333;
 }
