@@ -8,15 +8,26 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<div class="wrapper">
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			</div><!-- /wrapper -->
+			<div class="outerwrapper">
+				<div class="innerwrapper">
+					<div class="row1col1">
+						<nav>
+				    		<ul>
+				        		<li><a href="/">Home</a></li>
+					        	<li><a href="/about">About</a></li>
+				        		<li><a href="/blog">Blog</a></li>
+				    		</ul>
+						</nav>
+					</div><!-- /row1col1 -->
+					<div class="row1col2">
+						<ul class="icons">
+							<li><i class="fas fa-rss"></i></li>
+							<li><i class="fab fa-github"></i></li>
+							<li><i class="far fa-envelope"></i></li>
+						</ul>
+					</div><!-- /row1col2 -->
+				</div><!-- /innerwrapper -->
+			</div><!-- /outerwrapper -->
 			<div class="container">
 			
 			{{ content }}
