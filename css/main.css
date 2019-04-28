@@ -32,7 +32,7 @@
     clear: both;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p, a, li {
     font-family: "Courier New",Courier,monospace;
 }
 
@@ -54,7 +54,6 @@ a:hover {
 }
 
 p {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
