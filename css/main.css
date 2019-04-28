@@ -1,18 +1,17 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
+
+
 
 /* Layout */
 
-.outerwrapper {
-    width: 100%;
-    padding: 0 15px;
-    border-bottom: #999 solid 1px;
+.bodywrapper {
+    width: 1400px;
+    margin: 0 auto;
 }
 
-.innerwrapper {
-    max-width: 1400px;
+.row1wrapper {
+    width: 100%;
+    border-bottom: #999 solid 1px;
+    padding: 20px 0;
 }
 
 .row1col1 {
@@ -25,6 +24,40 @@ body {
     float: right;
 }
 
+
+/* Styles */
+
+.clearboth {
+    clear: both;
+}
+
+h1, h2, h3, h4, p, li, a {
+    font-family: "Courier New",Courier,monospace;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
 .icons {
     float: right;
 }
@@ -35,39 +68,23 @@ body {
 }
 
 .icons li i {
-    font-size: 14px;
+    font-size: 20px;
     color: #999;
 }
 
-
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav ul{
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #999;
     font-size: .8em;
 }
 
@@ -78,4 +95,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+footer p i {
+    font-size: 20px;
 }

@@ -8,8 +8,8 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<div class="outerwrapper">
-				<div class="innerwrapper">
+			<div class="bodywrapper">
+				<div class="row1wrapper">
 					<div class="row1col1">
 						<nav>
 				    		<ul>
@@ -21,23 +21,22 @@
 					</div><!-- /row1col1 -->
 					<div class="row1col2">
 						<ul class="icons">
-							<li><i class="fas fa-rss"></i></li>
-							<li><i class="fab fa-github"></i></li>
-							<li><i class="far fa-envelope"></i></li>
+							<li><a href="https://github.com/karangovil"><i class="fab fa-github"></i></a></li>
+							<li><a href="mailto:karangovil@gmail.com"><i class="far fa-envelope"></i></a></li>
+							<li><a href="/feed.xml"><i class="fas fa-rss"></i></a></li>
 						</ul>
 					</div><!-- /row1col2 -->
-				</div><!-- /innerwrapper -->
-			</div><!-- /outerwrapper -->
-			<div class="container">
+					<div class="clearboth"></div>
+				</div><!-- /row1wrapper -->
 			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:karangovil@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/karangovil">github.com/karangovil</a></li>
-				</ul>
-			</footer>
+				<div class="container">
+				
+				{{ content }}
+				
+				</div><!-- /container -->
+				<footer>
+		        	<p><i class="far fa-copyright"></i> 2019 Karan Govil</p>
+				</footer>
+			</div><!-- /bodywrapper -->
 		</body>
 	</html>
