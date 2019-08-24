@@ -1,3 +1,10 @@
+title: Karan Govil's Website
+
+title_separator: "|"
+
 name: Karan Govil
+
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+future: true
+incremental: true

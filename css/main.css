@@ -32,7 +32,7 @@
     clear: both;
 }
 
-h1, h2, h3, h4, p, a, li {
+h1, h2, h3, h4, p, li {
     font-family: "Courier New",Courier,monospace;
 }
 
@@ -101,8 +101,10 @@ ul.posts li {
     padding: 0 20px;
 }
 
-.container p {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+.container p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 .container p.meta {
