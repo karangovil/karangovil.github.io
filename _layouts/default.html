@@ -1,47 +1,20 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<link rel="shortcut icon" type="image/png" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-			<!-- link to font-awesome-cdn -->
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<!-- link to p font -->
-			<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-		</head>
-		<body>
-			<div class="bodywrapper">
-				<div class="row1wrapper">
-					<div class="row1col1">
-						<nav>
-				    		<ul>
-				        		<li><a href="/">Karan Govil</a></li>
-					        	<li><a href="/about">About</a></li>
-				        		<li><a href="/blog">Blog</a></li>
-				    		</ul>
-						</nav>
-					</div><!-- /row1col1 -->
-					<div class="row1col2">
-						<ul class="icons">
-							<li><a href="https://twitter.com/karan_govil"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="https://github.com/karangovil"><i class="fab fa-github"></i></a></li>
-							<li><a href="mailto:karangovil@gmail.com"><i class="far fa-envelope"></i></a></li>
-							<li><a href="/feed.xml"><i class="fas fa-rss"></i></a></li>
-						</ul>
-					</div><!-- /row1col2 -->
-					<div class="clearboth"></div>
-				</div><!-- /row1wrapper -->
-			
-				<div class="container">
-				
-				{{ content }}
-				
-				</div><!-- /container -->
-				<footer>
-		        	<p><i class="far fa-copyright"></i> 2019 Karan Govil</p>
-				</footer>
-			</div><!-- /bodywrapper -->
-		</body>
-	</html>
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
