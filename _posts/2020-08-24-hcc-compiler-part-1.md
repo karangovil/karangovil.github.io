@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "hcc - An Incremental Compiler in Haskell"
-date: 2019-08-24
+date: 2020-08-24
 ---
 
 This is the first post in a series about a tiny C compiler `hcc` (Haskell C Compiler) written in Haskell. A few months ago, I read Abdulaziz Ghuloum's [paper](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf) on writing an incrmental compiler in Scheme where he implements a small subset of a source language in small steps with the aim of having a "usable" compiler at each step which is capable of compiling small programs. I decided to do this exercise by implmenting a compiler written in Haskell that can compile a "small" subset of C programming language. I debated about using LLVM to generate the backend but decided to instead generate assembly for Intel-x86-64 architecture. This exercise is aimed at learning about compilers, Haskell, assembly and even some corener cases of simple C programs.
@@ -24,4 +24,5 @@ where I have used `<$>` symbol to denote "composition" (however it may be define
 
 At this stage, I should point out that all the above components can be implemented in an imperative language like C or C++ but the functional languages such as Haskell or Ocaml provide powerful abstractions such as algebraic data types with pattern matching that make building and traversing ASTs much easier (note that C++ is a multi paradigm language and many of the functional patterns can be implemented but the syntax is quite clunky and distracts from the logic). Since the aim of this
 exercise was to learn about compilers and not build a new super-efficient compiler (which would be likely written in a low level language), I decided to use Haskell as the implementation language.
+
 
