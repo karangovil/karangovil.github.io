@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: books
 title: Books
 permalink: /books/
 ---
-
-Books go here
