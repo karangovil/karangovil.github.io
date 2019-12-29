@@ -3,7 +3,7 @@ author: Karan Govil
 email: karangovil@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
     Compilers, functional programming, C++ and more...
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpt on the homepage
 
 show_drafts: false
 
