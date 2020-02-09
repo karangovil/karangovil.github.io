@@ -16,6 +16,7 @@ Here is a simple example that demonstrates the use of command line arguments in 
 
 {% highlight c %}
 /* cmd_arg_print.c */
+
 #include "stdio.h"
 
 int
@@ -31,8 +32,8 @@ main(int argc, char *argv[]) {
 
 This can be compiled and run to print all the command line arguments
 
-{% highlight shell %}
->>>gcc cmd_arg_print.c -o cmd_arg_print
+{% highlight bash %}
+>>> gcc cmd_arg_print.c -o cmd_arg_print
 >>> cmd_arg_print Hello World
 arg[0] = cmd_arg_print
 arg[1] = hello
